@@ -1,0 +1,55 @@
+/* Import */
+@import url("reset.css");
+@import url("base.css");
+@import url("header.css");
+@import url("footer.css");
+
+/* Post */
+.post_container {
+    max-width: 600px;
+    background-color: #eee;
+    margin: 3rem auto;
+    padding: 2rem;
+
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+}
+
+.post_title {
+    font-size: 1.5rem;
+
+    margin-bottom: 1.5rem;
+}
+
+.post_form {}
+
+.post_form input,
+.post_form textarea {
+    font-size: 1rem;
+
+    display: block;
+
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+
+    border: 1px solid #aaa;
+    border-radius: 0.25rem;
+}
+
+.post_form button {
+    font-size: 1rem;
+    color: #fff;
+
+    width: 100%;
+    background-color: #0044ff;
+    padding: 0.5rem;
+
+    border: none;
+    border-radius: 0.25rem;
+
+    cursor: pointer;
+}
+.post_form button:hover {
+    background-color: #004488;
+}

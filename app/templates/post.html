@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="english">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog : Post</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='CSS/post.css') }}">
+</head>
+<body>
+    <!-- Common : Header -->
+    <header>
+        <div class="navigate">
+            <div class="navigate_left">
+                <a href="{{ url_for('index') }}">Main</a>
+                <a href="{{ url_for('archive') }}">Archive</a>
+                <a href="{{ url_for('post') }}">Post</a>
+            </div>
+            <div class="navigate_right">
+                <div id="username"></div>
+                <a href="{{ url_for('login') }}" id="authenticate_link">Log In</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Not Common : Main -->
+    <main>
+        <div class="post_container">
+            <div class="post_title">New Post</div>
+
+            <form action="" class="post_form">
+                <input type="text" id="post_title" placeholder="Title" required>
+                <textarea name="" id="post_content" placeholder="Content" required></textarea>
+                <input type="date" id="post_date" required>
+                <button type="submit">Post</button>
+            </form>
+        </div>
+    </main>
+
+    <!-- Common : Footer -->
+     <footer>
+        <p>2025</p>
+    </footer>
+
+    <script src="{{ url_for('static', filename='JS/utility.js') }}"></script>
+    <script src="{{ url_for('static', filename='JS/post.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+/* Import */
+@import url("reset.css");
+@import url("base.css");
+@import url("header.css");
+@import url("footer.css");
+
+/* Register */
+.register_container {
+    text-align: center;
+
+    max-width: 300px;
+    background-color: #eee;
+    margin: 5rem auto;
+    padding: 2rem;
+
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.register_title {
+    font-size: 1.5rem;
+
+    margin-bottom: 1.5rem;
+}
+
+.register_form {}
+
+.register_form input {
+    font-size: 1rem;
+
+    display: block;
+
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+
+    border: 1px solid #aaa;
+    border-radius: 0.25rem;
+}
+
+.register_form button {
+    font-size: 1rem;
+    color: #fff;
+
+    width: 100%;
+    background-color: #0044ff;
+    padding: 0.5rem;
+
+    border: none;
+    border-radius: 0.25rem;
+
+    cursor: pointer;
+}
+.register_form button:hover {
+    background-color: #004488;
+}
+
+.register_message {
+    color: #ff0000;
+    font-size: 1rem;
+
+    margin-top: 1rem;
+}

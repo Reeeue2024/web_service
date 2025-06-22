@@ -1,0 +1,52 @@
+/* Import */
+@import url("reset.css");
+@import url("base.css");
+@import url("header.css");
+@import url("footer.css");
+
+/* Posts */
+.posts {}
+
+.post_list_title {
+    font-size: 2rem;
+    font-weight: bold;
+
+    margin-bottom: 1rem;
+}
+
+.post_list {}
+
+.post_item {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+
+    border-bottom: 1px solid #ddd;
+}
+
+.post_item_title {
+    font-size: 1.5rem;
+
+    margin-bottom: 0.5rem;
+}
+.post_item_content {
+    margin: 0.5rem 0;
+}
+.post_item_information {}
+
+/* Pages */
+.pages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.page_list {}
+
+.page_list button {}
+
+.previous_page_button {}
+.next_page_button {}
