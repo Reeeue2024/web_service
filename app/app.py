@@ -53,15 +53,17 @@ def archive() :
 # Log In Page
 @app.route('/login')
 def login() :
-    if "user_id" in session :
-        return redirect(url_for('index')) # 로그인을 이미 진행한 환경의 경우, 접근할 수 없게
+    # 오류로 인해 잠시 주석 처리
+    # if "user_id" in session :
+    #     return redirect(url_for('index')) # 로그인을 이미 진행한 환경의 경우, 접근할 수 없게
     return render_template('login.html')
 
 # Register Page
 @app.route('/register')
 def register() :
-    if "user_id" in session :
-        return redirect(url_for('index')) # 로그인을 이미 진행한 환경의 경우, 접근할 수 없게
+    # 오류로 인해 잠시 주석 처리
+    # if "user_id" in session :
+    #     return redirect(url_for('index')) # 로그인을 이미 진행한 환경의 경우, 접근할 수 없게
     return render_template('register.html')
 
 # Create Post Page
